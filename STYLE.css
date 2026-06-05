@@ -37,11 +37,11 @@ body{
 
 .Main{
     padding: 5%;
-    background-color: rgb(18, 14, 121);
     height: 600px;
     gap:7%;
     display: flex;
     flex-wrap: wrap;
+    background: linear-gradient(330deg, rgb(20, 73, 134) 0%, rgb(18, 14, 121) 100%);
 }
 .content{
     Width: 50%;
@@ -68,22 +68,45 @@ body{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .image{
-        align-self: center;
-        flex-basis: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        flex: 1 1;
-        
+.image{
+     align-self: center;
+     flex-basis: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     flex: 1 1;
+}
 
+.imageflex{
+    display: flex;
+    flex-direction: column;
     }
 
-    .imageflex{
-        display: flex;
-        flex-direction: column;
-    }
+ .imageflex.container{
+    align-items: center;
+    object-fit: contain;
+}
 
-    .imageflex.container{
-        align-items: center;
-        object-fit: contain;
-    }
+.Main2{
+    height: 400px;
+}
+
+.Main2 .content-2-container{
+    background-color: white;
+    width: 75%;
+    height: 250px;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 16px;
+    box-shadow: 1px 0px 15px rgba(10, 10, 10, 0.219);
+    display: flex;
+    gap:8%;
+    justify-content: center;
+}
+
+.content-textbox1,.content-textbox2,.content-textbox3{
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 17px;
+}
+
