@@ -87,7 +87,7 @@ body{
 }
 
 .Main2{
-    height: 400px;
+    height: 350px;
 }
 
 .Main2 .content-2-container{
@@ -101,6 +101,7 @@ body{
     display: flex;
     gap:8%;
     justify-content: center;
+    margin-bottom:10px;
 }
 
 .content-textbox1,.content-textbox2,.content-textbox3{
@@ -110,3 +111,80 @@ body{
     font-size: 17px;
 }
 
+
+.Content-3-container{
+    padding-right:7%;
+    padding-left:7% ;
+    padding-bottom: 7%;
+    display:flex;
+    gap: 5%;
+    justify-content: center;
+
+
+}
+.container3-textbox{
+    margin-left: 10px;
+}
+
+.container3-textbox h2{
+    font-weight: 400;
+}
+
+.container3-textbox .quoter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: 300;
+    padding: 10px 0px 20px 0px;
+}
+
+.main4 .content-4-container{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+}
+
+
+.content-5-container{
+    background-image: url(/digital-futuristic-mobile-technology-concept-background_1017-25464.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:600px;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-bottom: 5%;
+    place-items: center;
+    display: grid;
+
+}
+
+.content-5-container .text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 100px;
+}
+
+.content-5-container .paragraph{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+
+.footer{
+    background-color: rgb(139, 191, 252);
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    height: 90px;
+}
+
+@keyframes slideAndChange {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
